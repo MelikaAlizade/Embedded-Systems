@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stateflow>
+  <machine id="16">
+    <P Name="sfVersion">80000101</P>
+    <P Name="sfDemoChecksum">[3948938818 3724686949 3833000553 13485054]</P>
+    <Children>
+      <target id="30" name="sfun">
+        <P Name="description">Default Simulink S-Function Target.</P>
+      </target>
+      <chart Ref="chart_17"/>
+    </Children>
+  </machine>
+  <instance id="29">
+    <P Name="machine">16</P>
+    <P Name="name">Chart</P>
+    <P Name="chart">17</P>
+  </instance>
+</Stateflow>

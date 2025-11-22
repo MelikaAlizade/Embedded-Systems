@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-1, -7, 1537, 817]</P>
+  <P Name="ZoomFactor">250</P>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">4</P>
+  <Block BlockType="SubSystem" Name="Chart" SID="1">
+    <PortCounts in="1" out="2"/>
+    <P Name="Position">[-25, 20, 35, 75]</P>
+    <P Name="ZOrder">2</P>
+    <P Name="LibraryVersion">1.267</P>
+    <P Name="ErrorFcn">Stateflow.Translate.translate</P>
+    <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
+    <P Name="TreatAsAtomicUnit">on</P>
+    <P Name="SFBlockType">Chart</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">heater</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="PropagatedSignals">cooler</P>
+      </Port>
+    </PortProperties>
+    <System Ref="system_1"/>
+  </Block>
+  <Block BlockType="Scope" Name="Scope" SID="3">
+    <PortCounts in="1"/>
+    <P Name="Position">[100, -26, 130, 6]</P>
+    <P Name="ZOrder">4</P>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingLimitDataPoints&apos;,true,&apos;DataLoggingSaveFormat&apos;,&apos;Array&apos;,&apos;DataLoggingDecimation&apos;,&apos;1&apos;,&apos;DataLoggingDecimateData&apos;,true),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-0.125&apos;,&apos;MaxYLimReal&apos;,&apos;1.125&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.125&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 0.909803921568627 0.392156862745098;0.149019607843137 0.549019607843137 0.866666666666667;0.96078431372549 0.466666666666667 0.16078431372549;0.286274509803922 0.858823529411765 0.250980392156863;0.752941176470588 0.36078431372549 0.984313725490196;0.423529411764706 0.956862745098039 1;0.949019607843137 0.403921568627451 0.772549019607843],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{struct(&apos;Marker&apos;,&apos;o&apos;,&apos;MarkerSize&apos;,8)}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;Chart/heater&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-0.125&apos;,&apos;MaxYLimReal&apos;,&apos;1.125&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.125&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2024a&apos;)),&apos;Version&apos;,&apos;2024a&apos;,&apos;Position&apos;,[488 222 908.2 420])</P>
+    <P Name="NumInputPorts">1</P>
+    <P Name="Floating">off</P>
+  </Block>
+  <Block BlockType="Scope" Name="Scope1" SID="4">
+    <PortCounts in="1"/>
+    <P Name="Position">[100, 44, 130, 76]</P>
+    <P Name="ZOrder">5</P>
+    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingLimitDataPoints&apos;,true,&apos;DataLoggingSaveFormat&apos;,&apos;Array&apos;,&apos;DataLoggingDecimation&apos;,&apos;1&apos;,&apos;DataLoggingDecimateData&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData1&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-0.125&apos;,&apos;MaxYLimReal&apos;,&apos;1.125&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.125&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 0.909803921568627 0.392156862745098;0.149019607843137 0.549019607843137 0.866666666666667;0.96078431372549 0.466666666666667 0.16078431372549;0.286274509803922 0.858823529411765 0.250980392156863;0.752941176470588 0.36078431372549 0.984313725490196;0.423529411764706 0.956862745098039 1;0.949019607843137 0.403921568627451 0.772549019607843],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{struct(&apos;Marker&apos;,&apos;o&apos;,&apos;MarkerSize&apos;,8)}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;Chart/cooler&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-0.125&apos;,&apos;MaxYLimReal&apos;,&apos;1.125&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.125&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2024a&apos;)),&apos;Version&apos;,&apos;2024a&apos;,&apos;Position&apos;,[488 222 841.8 420])</P>
+    <P Name="NumInputPorts">1</P>
+    <P Name="Floating">off</P>
+  </Block>
+  <Block BlockType="Sin" Name="Sine Wave" SID="2">
+    <PortCounts out="1"/>
+    <P Name="Position">[-110, 35, -80, 65]</P>
+    <P Name="ZOrder">3</P>
+    <P Name="Amplitude">50</P>
+    <P Name="SampleTime">0</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">3</P>
+    <P Name="Src">2#out:1</P>
+    <P Name="Dst">1#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">1#out:1</P>
+    <P Name="Points">[12, 0; 0, -45]</P>
+    <P Name="Dst">3#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">1#out:2</P>
+    <P Name="Dst">4#in:1</P>
+  </Line>
+</System>
